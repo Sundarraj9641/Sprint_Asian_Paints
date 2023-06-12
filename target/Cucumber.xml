@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="470.888225">
-    <testcase classname="Colour Catalogue" name="Display the Paints and colours" time="24.2333">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="350.25463">
+    <testcase classname="Colour Catalogue" name="Display the Paints and colours" time="12.573197">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User hover the mouse on paints and colour..............................passed
 Then Paints and colours list is displayed...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Add the Paint Product to the Wishlist" time="51.832664">
+    <testcase classname="Colour Catalogue" name="Add the Paint Product to the Wishlist" time="40.75579">
         <system-out><![CDATA[Given User is on the paints and colours List................................passed
 When User click on the colour catalogue.....................................passed
 When user click on colour...................................................passed
@@ -14,14 +14,14 @@ And Click on wishlist icon..................................................pass
 Then Paint catalogue is added to the wishlist...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Log Out of the Application" time="21.664062">
+    <testcase classname="Colour Catalogue" name="Log Out of the Application" time="10.564392">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User click on the profile icon.........................................passed
 And Click on sign out.......................................................passed
 Then Account is Log Out Successfully........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Buy the paint product" time="36.625944">
+    <testcase classname="Colour Catalogue" name="Buy the paint product" time="44.25233">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User login to the application..........................................passed
 When Click on Wishlist icon.................................................passed
@@ -31,13 +31,13 @@ And Click on buy now button.................................................pass
 Then User able to see the delivery address page.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Filter the products" time="23.952032">
+    <testcase classname="Colour Catalogue" name="Filter the products" time="11.806764">
         <system-out><![CDATA[Given User is on the Colours Catalogue page.................................passed
 When User apply the filters.................................................passed
 Then User able to see the filtered products.................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Enquire the Product" time="33.034723">
+    <testcase classname="Colour Catalogue" name="Enquire the Product" time="21.491182">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User Enters the Name Sundar............................................passed
 When User Enter Email sundarraj1234@gmail.com...............................passed
@@ -47,7 +47,7 @@ And Click on Enquire Now button.............................................pass
 Then Successful Completion message is displayed.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Enquire the Product 2" time="34.717588">
+    <testcase classname="Colour Catalogue" name="Enquire the Product 2" time="19.746574">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User Enters the Name Raj...............................................passed
 When User Enter Email rajsundar4321@gmail.com...............................passed
@@ -57,7 +57,7 @@ And Click on Enquire Now button.............................................pass
 Then Successful Completion message is displayed.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Colour Catalogue" name="Enquire the Product with Invalid details" time="28.598631">
+    <testcase classname="Colour Catalogue" name="Enquire the Product with Invalid details" time="17.297704">
         <system-out><![CDATA[Given User is on the Home Page of Asian Paints..............................passed
 When User Enters the Name Sundarraj.........................................passed
 When User Enter Email sundarraj3243@gmail.com...............................passed
@@ -67,7 +67,7 @@ And Click on Enquire Now button.............................................pass
 Then Error message is displayed.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exterior Paints" name="View Details of One Exterior Paint" time="39.188884">
+    <testcase classname="Exterior Paints" name="View Details of One Exterior Paint" time="43.704766">
         <system-out><![CDATA[Given User is on the Exterior paints page...................................passed
 When User click on Wall textures category...................................passed
 When User click on View Catalogue of product................................passed
@@ -75,7 +75,7 @@ And User select the colour..................................................pass
 Then User able to see the description of the product........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exterior Paints" name="Search the Products" time="31.823168">
+    <testcase classname="Exterior Paints" name="Search the Products" time="20.243395">
         <system-out><![CDATA[Given User is in the Home Page..............................................passed
 When User click on search box...............................................passed
 When User enter the product name Ultima floor guard.........................passed
@@ -83,7 +83,7 @@ And Click on search button..................................................pass
 Then User able to see the searched product..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exterior Paints" name="Search the Products 2" time="27.19108">
+    <testcase classname="Exterior Paints" name="Search the Products 2" time="16.595892">
         <system-out><![CDATA[Given User is in the Home Page..............................................passed
 When User click on search box...............................................passed
 When User enter the product name Apex floor guard...........................passed
@@ -91,7 +91,7 @@ And Click on search button..................................................pass
 Then User able to see the searched product..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exterior Paints" name="Search the Products using invalid product name" time="26.540153">
+    <testcase classname="Exterior Paints" name="Search the Products using invalid product name" time="14.87888">
         <system-out><![CDATA[Given User is in the Home Page..............................................passed
 When User click on search box...............................................passed
 When User enter the product name 1122334455.................................passed
@@ -99,7 +99,7 @@ And Click on search button..................................................pass
 Then User able to see the error message.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exterior Paints" name="Search the Products using invalid product name 2" time="26.835401">
+    <testcase classname="Exterior Paints" name="Search the Products using invalid product name 2" time="30.982993">
         <system-out><![CDATA[Given User is in the Home Page..............................................passed
 When User click on search box...............................................passed
 When User enter the product name Capgemini..................................passed
@@ -107,7 +107,7 @@ And Click on search button..................................................pass
 Then User able to see the error message.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Paint Budget Calculator" name="Quick Calculator" time="32.128818">
+    <testcase classname="Paint Budget Calculator" name="Quick Calculator" time="20.978107">
         <system-out><![CDATA[Given user in the Home page.................................................passed
 When User hover the mouse on Paints and Colours.............................passed
 And Click on Paint Budget Calculator........................................passed
@@ -118,7 +118,7 @@ And Click on Calculate Now Button...........................................pass
 Then User able to see litres of Paint and Price of Paint....................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Paint Budget Calculator" name="Advanced Calculator" time="32.521777">
+    <testcase classname="Paint Budget Calculator" name="Advanced Calculator" time="24.382664">
         <system-out><![CDATA[Given user in the Home page.................................................passed
 When User hover the mouse on Paints and Colours.............................passed
 And Click on Paint Budget Calculator........................................passed
